@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>500 - Internal server error</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="/public/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="/public/css/custom.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href='//fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+        <style>
+            body {
+                padding-top: 50px;
+            }
+            .starter-template {
+                padding: 40px 15px;
+            }
+        </style>
+        <!-- TODO: Complete this project :) -->
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="about.html"><img src="/public/img/geospin-logo.png"></a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+            <li class="active"><a href="about.html">About GeoSpin</a></li>
+            <li ><a href="help/howto.html">Help &amp; FAQ</a></li>
+            <li ><a href="privacy.html">Privacy</a></li>
+            <li><a href="http://geospin.com.au">Launch the GeoSpin</a></li>
+        </ul>
+
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+        <div class="container">
+
+
+    <div class="starter-template">
+    <div class="row">
+        <div class="col-md-9">
+
+        <h2>Internal server error</h2>
+        <p>Something went wrong on our server. Please send an email to <a href="mailto:support@geospin.com.au">support@geospin.com.au</a>, explaining what you were doing at the time it happened. This will help us track down the cause.</p>
+        <p><b>&larr; Return to <a href="/">GeoSpin</a></b>.
+        <div style="font-size: 300px; color: hsl(0, 100%, 85%); text-align:center">500</div>
+
+
+    </div>
+    </div>
+
+
+        </div>
+        <!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="col-lg-12">
+                <strong><a href="#terms">Terms and conditions</a></strong> –
+                <strong><a href="privacy.html">Privacy</a></strong>
+            </p>
+        </div>
+    </div>
+</footer>
+        <script src="//code.jquery.com/jquery.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                if (location.hash) {
+                    location.hash && $(location.hash + '.collapse').collapse('show');
+                }
+            });
+        </script>
+        <script src="/public/js/bootstrap.min.js"></script>
+    </body>
+</html>
